@@ -1,4 +1,4 @@
-package com.javawiz;
+package com.javawiz.config;
 import java.util.Properties;
 
 import javax.sql.DataSource;

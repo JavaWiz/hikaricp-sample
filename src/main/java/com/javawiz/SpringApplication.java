@@ -3,10 +3,11 @@ import java.util.List;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.javawiz.config.AppConfig;
 import com.javawiz.entity.User;
 import com.javawiz.service.UserService;
 
-public class MainApp {
+public class SpringApplication {
    public static void main(String[] args) {
       AnnotationConfigApplicationContext context = 
             new AnnotationConfigApplicationContext(AppConfig.class);

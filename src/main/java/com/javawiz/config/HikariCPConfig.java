@@ -1,4 +1,4 @@
-package com.javawiz;
+package com.javawiz.config;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Value;
